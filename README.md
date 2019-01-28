@@ -14,12 +14,12 @@ There is a builded version of [hbsis-angular](https://github.com/tarcio/hbsis-an
 
 ## MongoDB
 
-If you don't have MongoDB installed, there is an online database that you can use for tests.  
+If you don't have MongoDB installed, there is a remote database that you can use for tests.  
 Remove all `spring.data.mongodb.*` from application.json and add `spring.data.mongodb.uri=mongodb://hbsis:hbsis123@ds113855.mlab.com:13855/hbsis`.
 
 ## Straight to the app!
 
-Yuo can also just download the `hbsis-java.jar` and run it using `java -jar hbsis-jar`. It is configured to use the online MongoDB database.  
+Yuo can also just download the `hbsis-java.jar` and run it using `java -jar hbsis-jar`. It is configured to use the remote MongoDB database.  
 
 Go to `localhost:8080` and enjoy.
 
