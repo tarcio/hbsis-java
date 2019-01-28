@@ -5,7 +5,7 @@ This project was developed using Java 1.8 and [Spring Boot](https://spring.io) f
 ## Install
 
 Clone the project and run `maven clean install` to download all dependencies and build/test the project.  
-Change `src/main/resources/application.json` to point to correct MongoDB installation. It assumes MongoDB is running on `localhost:27017`.  
+Change `src/main/resources/application.json` to point to correct [MongoDB](https://mongodb.com) installation. It assumes MongoDB is running on `localhost:27017`.  
 
 ## Development server
 
