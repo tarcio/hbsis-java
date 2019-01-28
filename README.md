@@ -12,6 +12,17 @@ Change `src/main/resources/application.json` to point to correct [MongoDB](https
 Run `Application.class` as a Java Application. It should start running the app on `http://localhost:8080`  
 There is a builded version of [hbsis-angular](https://github.com/tarcio/hbsis-angular), where you can check going to `http://localhost:8080`.
 
+## MongoDB
+
+If you don't have MongoDB installed, there is an online database that you can use for tests.  
+Remove all `spring.data.mongodb.*` from application.json and add `spring.data.mongodb.uri=mongodb://hbsis:hbsis123@ds113855.mlab.com:13855/hbsis`.
+
+## Straight to the app!
+
+Yuo can also just download the `hbsis-java.jar` and run it using `java -jar hbsis-jar`. It is configured to use the online MongoDB database.  
+
+Go to `localhost:8080` and enjoy.
+
 ## TODO
 
 Improve Tests; Improve Repo Classes; Better Handler for OpenWeather Result.
